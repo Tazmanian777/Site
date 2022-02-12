@@ -1,0 +1,1359 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&display=swap');
+  
+  a:hover {
+    color:white;
+  }
+
+  .romania{
+    width: 20px;
+    height: 15px;
+    margin-right: 6px;
+  }
+
+  div{
+    box-sizing: border-box;
+    float: left;
+  }
+
+  .background1 {
+    background-color: rgba(126, 126, 126, 30%) ; 
+  }
+
+
+  #albastru {
+    color: blue;
+    font-family: 'Roboto Slab', serif;
+    -webkit-text-stroke: 0.4px black;
+  }
+
+  #rosu1{
+    color: red;
+    font-family: 'Roboto Slab', serif;
+    -webkit-text-stroke: 0.4px black;
+  }
+
+  #verde {
+    color: green;
+    font-family: 'Roboto Slab', serif;
+    -webkit-text-stroke: 0.4px black;
+  }
+
+ 
+
+  #mov {
+    color: purple;
+    font-family: 'Roboto Slab', serif;
+    -webkit-text-stroke: 0.4px black;
+  }
+
+  #img2{
+      display: none;
+  }
+
+  #img3 {
+      display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #meniu {
+    width: 100%;
+    padding: 3px;
+    background-color: black;
+  }
+
+  #p1 {
+    width: 19%;
+    border-right: 1px solid white;
+    margin: 0px 0px 0px 10px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #p2 {
+    width: 19%;
+    margin: 0px 0px 0px 10px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+   }
+
+  #content1 {
+    margin-top: 60px;
+    width: 45%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: auto;
+  }
+
+  #b {
+    font-size: 20px;
+    color: white;
+  }
+
+  #img1 {
+    margin-top: 120px;
+    width: 53%;
+    border:  solid black;
+  }
+
+  .img1 {
+    width: 100%;  
+  }
+
+  .imagine5 {
+    width: 398px;
+    height: 267px;
+    border:  solid black;
+  }
+
+  .imagine6 {
+    width: 398px;
+    height: 267px;
+    border:  solid black;
+  }
+
+  .imagine4 {
+    border:  solid black;
+  }
+
+
+  #service1 {
+    width: 33%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+
+  #service {
+    width: 33%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 15px;
+  }
+
+  #service2 {
+    width: 33%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  #service4 {
+    width: 33%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 15px;
+  }
+
+
+  #service3 {
+    width: 33%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  #service5 {
+    width: 33%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+
+
+  #titlu2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    text-decoration: underline;
+    color: rgb(126, 126, 126);
+  }
+
+  
+  #titlu {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  
+
+  
+  
+ 
+
+  
+
+
+
+
+  @media (max-width:1300px) {
+    #service1 {
+      width: 49.5%;
+    }
+
+    #service2 {
+      width: 49.5%;
+    }
+
+    #service {
+      width: 49.5%;
+    }
+
+    #service4 {
+      width: 49.5%;
+    }
+
+    #service5 {
+      width: 99%;
+    }
+
+    
+
+  
+
+}
+
+  @media(max-width:1142px) {
+    
+
+    #turn1 {
+      margin-top: 50px;
+    }
+
+
+    #content2 {
+      width: 60%;
+    }
+
+  
+  }
+
+
+  @media (max-width:1100px) {
+
+    #content1 {
+        margin-top: 60px;
+    }
+
+    #p1 {
+        width: 18%;
+        border-right: 1px solid white;
+        margin: 0px 0px 0px 10px;
+        float: left;
+      }
+    
+      #p2 {
+        width: 18%;
+        margin: 0px 0px 0px 10px;
+        float: left;
+       }
+
+  }
+
+   @media (max-width:950px) {
+    #teamtext2 {
+      width: 100%;
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 0px;
+  }
+
+  #turn1 {
+    width: 97.5%;
+    margin: 10px 10px 10px 10px;
+   
+  }
+
+  .turn1 {
+    width: 100%;
+    
+  }
+
+  #content2 {
+    width: 100%;
+    margin: 10px;
+  }
+
+
+
+
+
+  }
+  
+  @media (max-width:880px) {
+    #service1 {
+      width: 99%;
+    }
+
+    #service2 {
+      width: 99%;
+    }
+
+    #service4 {
+      width: 99%;
+      margin-top: 30px;
+    }
+
+    #service{
+      width: 99%;
+    }
+
+  }
+  
+  @media (max-width:805px) {
+
+    #about1{
+      width: 100%;
+      margin: auto;
+    }
+
+
+
+
+  }
+
+   @media (max-width:750px) {
+
+    #content1 {
+        margin-top: 20px;
+        width: 100%;
+        text-align: none;
+      }
+
+    #img1 {
+        display:none;
+    }
+
+    #img2 {
+        display: block;
+        width: 50%;
+        float: right;
+        margin-top: 40px;
+        border:  solid black;
+    }
+
+    .img2 {
+        width: 95%;
+    }
+
+    #teamtext2 {
+        width: 100%;
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+
+
+}
+
+   @media (max-width:600px) {
+
+    #img2 {
+        display: none;
+    }
+
+    #img3 {
+        display: block;
+        margin: 5px 5px 5px 5px;
+        border:  solid black;
+    }
+
+    .img3 {
+        width: 95%;
+    }
+
+    #teamtext2 {
+        width: 100%;
+        margin-top: 350px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    }
+
+    @media (max-width:554px) {
+
+        #p1 {
+            width: 100%;
+            border-bottom: 1px solid white;
+            float: left;
+          }
+        
+          #p2 {
+            width: 100%;
+            margin: 0px 0px 0px 10px;
+            float: left;
+           } 
+
+           #teamtext2 {
+            margin-top: 300px;    
+        }
+    }
+
+
+    @media (max-width:450px) {
+  
+        #teamtext2 {
+            margin-top: 250px;
+        }
+    }
+
+
+    #fereastra {
+      width: 450px;
+      height: 500px;
+      background:rgba(128, 128, 128, 0.836) ;
+      padding: 20px;
+      margin-top: 50px;
+      margin-left: 20px;
+      font-weight: 700;
+      border: solid black;
+    }
+
+    .continut {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      color: black;
+      font-weight: 800;
+    }
+
+    #special {
+      font-size: 23px;
+    }
+
+
+    @media (max-width: 500px) {
+      #fereastra {
+        width: 400px;
+        height: 520px;
+      }
+    }
+
+    @media (max-width: 440px) {
+      #fereastra {
+        width: 330px;
+        height: 570px;
+      }
+    }
+
+    @media (max-width: 406px) {
+      #fereastra {
+        width: 300px;
+        height: 580px;
+      }
+
+      
+    }
+
+    
+
+
+.imp {
+  color: black;
+}
+
+
+
+
+
+
+   #titlu3 {
+       font-weight: bold;
+       font-size: 18px;
+   }
+
+
+
+.contact {
+  position:inherit;
+  padding: 50px 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.contact .content {
+  max-width: 1300px;
+  text-align: center;
+}
+
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.contact .content p {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box {
+  position:inherit;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+  font-weight: 500;
+}
+
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+
+.contactForm h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: solid #333;
+  outline: none;
+  resize: none ;
+}
+
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgba(126, 126, 126, 30%) ;
+}
+
+@media (max-width: 991px) {
+  .contact{
+    padding: 50px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container .contactInfo {
+    margin-bottom: 40px;
+  }
+  
+  .container .contactInfo,
+  .contactForm {
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+@media(max-width:705px)  {
+  .container1{
+    width: 400px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+ 
+  background:rgba(58, 55, 55, 0.322) ;
+  height: 110px;
+  padding: 10px 0;
+  border: solid black;
+  
+}
+
+
+.logo {
+  width: 100px;
+  margin-right: 20px;
+  
+}
+
+.logo img {
+  width: 100px;
+  
+}
+
+.lang-menu {
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 25px;
+  position: relative;
+  margin-right: 20px;
+}
+.lang-menu .selected-lang {
+  display: flex;   
+  justify-content: space-between;
+  line-height: 2;
+  cursor: pointer;
+  color: white;
+}
+.lang-menu .selected-lang:before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://www.countryflags.io/gb/flat/32.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background:rgba(58, 55, 55, 0.322) ;
+  border: 1px solid #f8f8f8;
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  width: 125px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu ul li a {
+  text-decoration: none;
+  width: 125px;
+  padding: 5px 10px;
+  display: block;
+  color: white;
+}
+
+.lang-menu ul li:hover {
+  background-color: #f2f2f2;
+}
+
+.lang-menu ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ro:before {
+  background-image: url(https://www.countryflags.io/RO/flat/32.png);
+}
+
+.en:before {
+  background-image: url(https://www.countryflags.io/gb/flat/32.png);
+}
+.fr:before {
+  background-image: url(https://www.countryflags.io/fr/flat/32.png);
+}
+
+
+
+
+.lang-menu:hover ul {
+  display: block;
+}
+
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+nav { 
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+
+}
+
+#margine{
+margin-left: 0px;
+font-size: 15px;
+font-weight: 800;
+}
+
+nav ul{
+float: right;
+margin-right: 20px; 
+}
+
+nav #margine li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+
+
+nav #margine li a {
+color: white;
+font-size: 17px;
+text-transform: uppercase;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+a:hover{
+background: black;
+transition: .5s;
+}
+
+.active{
+  background: black;
+}
+
+.checkbtn {
+font-size: 30px;
+color:white;
+float: right;
+line-height: 80px;
+margin:0 auto;
+cursor: pointer;
+display: none;
+}
+
+#check{
+display: none;
+}
+
+@media (max-width:952px){
+nav ul li a{
+font-size: 16px;
+}
+.checkbtn{
+    display: block;
+}
+
+#margine{
+    position:absolute;
+    width: 100%;
+    height: 108vh;
+    background:rgb(92, 92, 92);
+    top: 110px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    
+}
+
+nav #margine li{
+    display:block;
+    margin: 50px 0;
+    line-height: 26px;
+    
+}
+
+nav #margine li a{
+    font-size: 20px;
+    
+}
+
+#check:checked ~ ul{
+    left: 0;
+}
+
+}
+
+#navigare {
+  font-family: 'Roboto', sans-serif;
+}
+
+.lang-menuro {
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 25px;
+  position: relative;
+  margin-right: 20px;
+}
+.lang-menuro .selected-lang {
+  display: flex;   
+  justify-content: space-between;
+  line-height: 2;
+  cursor: pointer;
+  color: white;
+}
+.lang-menuro .selected-lang:before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://www.countryflags.io/RO/flat/32.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lang-menuro ul {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background:rgba(58, 55, 55, 0.322) ;
+  border: 1px solid #f8f8f8;
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  width: 125px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menuro ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menuro ul li a {
+  text-decoration: none;
+  width: 125px;
+  padding: 5px 10px;
+  display: block;
+  color: white;
+}
+
+.lang-menuro ul li:hover {
+  background-color: #f2f2f2;
+}
+
+.lang-menuro ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lang-menuro:hover ul {
+  display: block;
+}
+
+.lang-menufr {
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  margin-top: 25px;
+  position: relative;
+  margin-right: 20px;
+}
+.lang-menufr .selected-lang {
+  display: flex;   
+  justify-content: space-between;
+  line-height: 2;
+  cursor: pointer;
+  color: white;
+}
+.lang-menufr .selected-lang:before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://www.countryflags.io/fr/flat/32.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lang-menufr ul {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background:rgba(58, 55, 55, 0.322) ;
+  border: 1px solid #f8f8f8;
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  width: 125px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menufr ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menufr ul li a {
+  text-decoration: none;
+  width: 125px;
+  padding: 5px 10px;
+  display: block;
+  color: white;
+}
+
+.lang-menufr ul li:hover {
+  background-color: #f2f2f2;
+}
+
+.lang-menufr ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lang-menufr:hover ul {
+  display: block;
+}
+
+.prices{
+ width: 100%;
+ text-align: center;
+ margin-top: 80px;
+ font-size: 30px;
+ font-weight: 800;
+ 
+}
+
+.preturi {
+  border-radius: 5px;
+  border:solid black;
+  color: black;
+  background: white;
+  padding: 3px;
+}
+
+@media (max-width:400px) {
+
+  .prices{
+    font-size: 20px;
+  }
+}
+
+.principal {
+  width: 30%;
+  margin: 30px 20px 20px 20px;
+  font-size: 27px;
+  color: white;
+  background:rgba(58, 55, 55, 0.322);
+  padding: 10px;
+  border:solid black;
+}
+
+.secundar{
+  width: 66%;
+  font-size: 23px;
+  color: white;
+  padding: 10px;
+  
+}
+
+.secundar1{
+  width: 96%;
+  margin: 20px 20px 20px 20px;
+  color: white;
+  background:rgba(58, 55, 55, 0.322);
+  padding: 10px;
+  border:solid black;
+  font-size: 20px;
+}
+
+.secundar2{
+  width: 96%;
+  margin: 20px 20px 20px 20px;
+  color: white;
+  background:rgba(58, 55, 55, 0.322);
+  padding: 10px;
+  border:solid black;
+  font-size: 20px;
+}
+
+.secundar3{
+  width: 96%;
+  margin: 20px 20px 20px 20px;
+  font-size: 20px;
+  color: white;
+  background:rgba(58, 55, 55, 0.322);
+  padding: 10px;
+  border:solid black;
+}
+
+@media(max-width:1206px){
+  .principal{
+    width: 35%;
+  }
+
+  .secundar{
+    width: 60%;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    
+  }
+
+
+}
+
+@media(max-width: 1004px){
+  .principal{
+    width: 30%;
+    font-size: 25px;
+  }
+
+  .secundar{
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+   
+  }
+
+}
+
+@media(max-width:600px) {
+  .principal{
+    width: 91%;
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+  }
+  
+  .secundar{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .secundar1{
+    width: 95%;
+    margin: 10px 10px 10px 10px;
+   
+  }
+  
+  .secundar2{
+    width: 95%;
+    margin: 10px 10px 10px 10px;
+   
+  }
+  
+  .secundar3{
+    width: 95%;
+    margin: 10px 10px 10px 10px;
+   
+  }
+
+}
+
+.text a{
+  color: black;
+}
+
+.text a:hover {
+  background: none;
+  color: red;
+}
+
+.mare {
+  width: 98%;
+  margin: 50px 0px 10px 0px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#titluri{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.rapid{
+  width: 31%;
+  margin: 10px;
+}
+
+.simplu{
+  width: 31%;
+  margin: 10px;
+
+}
+
+.ieftin{
+  width: 31%;
+  margin: 10px;
+
+}
+
+.cert1, .cert2, .cert3{
+  width: 100%;
+  border: solid black;
+}
+
+.preturile{
+  margin: 20px;
+}
+
+#titlumare{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.acte {
+  width: 98%;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+}
+
+#lista{
+  line-height: 1.8;
+}
+
+@media(max-width:894px){
+  .rapid{
+    width: 47%;
+  }
+  
+  .ieftin{
+    width: 47%;
+  }
+  
+  .simplu{
+    width: 47%;
+    margin-left: 200px;
+  }
+  
+}
+
+@media(max-width:680px){
+  .rapid{
+    width: 97%;
+  }
+  
+  .ieftin{
+    width: 97%;
+  }
+  
+  .simplu{
+    width: 97%;
+    margin-left: 10px;
+  }
+  
+}
+
+.metalicep{
+  width: 300px;
+  height: 150px;
+}
+
+.casep{
+  width: 300px;
+  height: 150px;
+}
+
+
+
+.executie{
+  padding: 20px;
+  margin: 200px;
+  background-color: white;
+}
+
+.executieint{
+  width: 100%;
+  padding: 10px;
+}
+
+.amenajari, .reparatii, .metalice {
+  width:33% ;
+  padding: 10px;
+}
+
+ .case, .renovari {
+  width:43% ;
+  padding: 30px ;
+ }
+
+
+.renovarip, .casep, .reparatiip, .amenajarip, .instalarep, .metalicep{
+  border: solid black;
+  width: 100%;
+  height: 150px;
+}
+
+#maimare{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contactezi, .evaluam, .predam{
+  width: 33%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#executie{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#titluri1{
+  font-weight: 700;
+}
+
+#special1{
+  color: grey;
+  font: 500;
+}
+
+#special2{
+  font-style: italic;
+}
+
+@media(max-width:982px){
+  .amenajari, .reparatii, .metalice, .case, .renovari{
+    width: 100%;
+  }
+
+  .renovarip, .casep, .reparatiip, .amenajarip, .instalarep, .metalicep{
+    
+    height: 250px;
+  }
+
+  .contactezi, .evaluam, .predam{
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media(max-width:760px){
+  .executie{
+    
+    margin: 100px;
+    
+  }
+}
+
+@media(max-width:544px){
+  .executie{
+    
+    margin: 30px;
+    
+  }
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>CivEng Design</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1, maximum=scale=1">
+       <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+       <meta content="utf-8" http-equiv="encoding">
+       <link rel="stylesheet" href="site.css"> 
+       <link rel = "icon" href ="Poze/logo1.png" type = "image/x-icon">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+       <style>
+        body {
+         background-color:rgba(126, 126, 126, 30%) ;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+
+         @media(max-width:1250px){
+            .checkbtn{
+             display: block;
+            }
+
+#margine{
+    position:absolute;
+    width: 100%;
+    height: 108vh;
+    background:rgb(92, 92, 92);
+    top: 110px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    
+}
+
+nav #margine li{
+    display:block;
+    margin: 50px 0;
+    line-height: 26px;
+    
+}
+
+nav #margine li a{
+    font-size: 20px;
+    
+}
+
+#check:checked ~ ul{
+    left: 0;
+}
+
+nav ul li a{
+font-size: 16px;
+}
+}
+        }
+    </style>    
+    </head>
+
+<body>
+
+    <header>
+        <nav id="navigare">
+            <div class="logo">
+                <img src="Poze/logo1.png" class="logo">
+            </div> 
+
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul id="margine">
+                    <li><a href="indexfr.html" >Accueil</a></li>
+                    <li><a href="Aboutfr.html">À propos de nous</a></li>
+                    <li><a href="Servicesfr.html" class="active">Prestations de service</a></li>
+                    <li><a href="Projectsfr.html">Projet</a></li>
+                    <li><a href="Contactfr.html">Contacter</a></li>
+                </ul>
+                
+             </nav>     
+             
+             
+            <div class="lang-menufr">
+                <div class="selected-lang">
+                    Français
+                </div>
+                <ul>
+                    <li>
+                        <a href="Servicesro.html" class="ro">Română</a>
+                    </li>
+                    <li>
+                        <a href="Services.html" class="en">English</a>
+                    </li>
+                    <li>
+                        <a href="Servicesfr.html" class="fr">Français</a>
+                    </li>  
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+
+
+      <div id="service1">
+        <img src="Poze/poza3.jpg" class="imagine4" alt="Imagine4">
+        <p><span id="titlu2">Conception d'infrastructures de télécommunications :</span><br><br>
+            Plans de planification<br><br>
+            Plans de construction<br><br>
+            Plans de fabrication<br><br>
+            Calculs structurels<br><br>
+            Photomontages de planification spécialisés<br><br>
+            Analyse des pylônes<br><br>
+            Lettres d'opinion structurelles<br><br>
+
+        </p>
+
+      </div>
+
+      
+      <div id="service2">
+        
+        <img src="Poze/poza4.jpg" class="imagine5" alt="Imagine5">
+        <p><span id="titlu2">Conception des infrastructures de transport :</span><br><br>
+            Conception de route<br><br>
+            Conception de pont<br><br>
+            Conception de parking<br><br>
+            Conception de pistes cyclables<br><br>
+            Conception des pistes et des plates-formes d'aéroport<br><br>
+           
+        </p>
+
+      </div>
+      
+      <div id="service3">
+        <img src="Poze/poza5.jpg" class="imagine6" alt="Imagine6">
+        <p><span id="titlu2">Conception de panneaux d'affichage et de lettres volumétriques :</span><br><br>
+            Plans de planification<br><br>
+            Plans de construction<br><br>
+            Analyse structurelle<br><br>
+            Photomontage de la planification spécialisée<br><br>
+
+        </p>
+      </div>
+
+
+<script src="https://kit.fontawesome.com/82c1974647.js" crossorigin="anonymous"></script>
+</body>
+</html>
